@@ -13,7 +13,7 @@ export const App = () => (
         flexDirection: 'column'
       }}
     >
-      <Title order={1} mb="xl" ta="center">App Store Top History</Title>
+      <Title order={1} mb="xl" ta="center">Top History</Title>
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
         <TopHistoryContainer />
       </div>
